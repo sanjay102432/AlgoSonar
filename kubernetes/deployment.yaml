@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: algo-sonar
+  labels:
+    app: algo-sonar
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: algo-sonar
+  template:
+    metadata:
+      labels:
+        app: algo-sonar
+    spec:
+      containers:
+      - name: algo-sonar
+        image: your-docker-image:latest
+        ports:
+        - containerPort: 8080
+        env:
+        - name: ENV
+          value: production
