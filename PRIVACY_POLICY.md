@@ -113,7 +113,7 @@ If you have any questions, concerns, or requests regarding this Privacy Policy o
 
 **AlgoSonar™ Team**
 - **GitHub:** [https://github.com/sanjay102432/AlgoSonar](https://github.com/sanjay102432/AlgoSonar)
-- **Email:** _(Please update with your official contact email)_
+- **Email:** bhoyesanjay33@gmail.com
 
 ---
 
